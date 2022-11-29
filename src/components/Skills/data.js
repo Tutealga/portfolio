@@ -15,12 +15,6 @@ const data = {
         {title:'Bootstrap',url:'https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg',},
         {title:'Python',url:'https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg',}
     ],
-    
-    skills4: [
-        {title:'SASS',url:'https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg',},
-        {title:'Django',url:'https://cdn.worldvectorlogo.com/logos/django.svg',},
-        {title:'Solidity',url:'https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Solidity_logo.svg/640px-Solidity_logo.svg.png',}
-    ],
 }
 
 export default data;
