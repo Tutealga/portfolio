@@ -1,0 +1,56 @@
+.hOvuuP {
+    width: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 40px;
+    right: auto;
+    z-index: 10;
+    color: #fff;
+}
+
+.dVLQAC {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.dVLQAC::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 5.625rem;
+    margin: 0px auto;
+    background-color: #fff;
+}
+
+/*.dVLQAC::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 40vh;
+    margin: 0px auto;
+    background-color: #fff;
+}*/
+
+.dVLQAC li a {
+    padding: 10px;
+}
+
+.dVLQAC li a svg {
+    width: 20px;
+    height: 20px;
+}
+
+svg.feather {
+    fill: none;
+}
+
+a {
+    display: inline-block !important;
+    color: #fff !important;
+}
+

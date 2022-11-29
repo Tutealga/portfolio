@@ -1,0 +1,51 @@
+.normalMouth{
+    width: 50px;
+    height: 30px;
+    background-color: #1A1A1A;
+    border-radius: 30px 30px 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+    
+  .surpriseMouth{
+    width: 40px;
+    height: 40px;
+    background-color: #1A1A1A;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+  }
+  
+  .bounce {
+    animation: bouncebody alternate infinite 400ms ease-in-out;
+  }
+
+  .blink {
+    animation: blink forwards infinite 10s ease-in-out;
+  }
+  
+  @keyframes bouncebody {
+    to {
+      transform: scaleX(1.03) scaleY(0.97);
+    }
+  }
+
+  @keyframes blink {
+    0%,
+    2%,
+    60%,
+    62%,
+    100% {
+      transform: scaleX(1) scaleY(1);
+    }
+    1%,
+    61% {
+      transform: scaleX(1.3) scaleY(0.1);
+    }
+  }
+    
+  
