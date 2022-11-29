@@ -14,9 +14,6 @@ const SkillsContainer = () => {
     <Row>
         <SkillsList skills={data.skills3}/>
     </Row>
-    <Row>
-        <SkillsList skills={data.skills4}/>
-    </Row>
     </>  
   );
 }
