@@ -1,0 +1,19 @@
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+svg.feather {
+    fill: none;
+}
+
+.projectSkills{
+    font-size: 0.8rem;
+    color:#4D4D4D;
+}
+
+.cardBody {
+    background-color: transparent !important;
+    border:none !important;
+    box-shadow: inset 10px 10px 20px -10px rgba(255,242,187,0.5), inset -10px -10px 20px -10px rgba(155,125,0,0.5);
+}

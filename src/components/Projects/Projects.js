@@ -2,6 +2,7 @@ import Rectangulo from '../Rectangulo/Rectangulo';
 import {Container, Row, Col} from 'react-bootstrap';
 import {styles} from '../../styles/styles';
 import ProjectsContainer from './ProjectsContainer';
+import './Projects.css'
 
 const Projects = () => {
   return (

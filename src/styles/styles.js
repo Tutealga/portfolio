@@ -10,7 +10,6 @@ export const Box = glamorous.div(
   borderRadius: '0.5em 0.5em 0.5em 0.5em / 0.6em 0.6em 0.4em 0.4em',
   '&:hover': {
     transform: 'scale(0.976)',
-    cursor: 'pointer',
   }
 },
 props => ({

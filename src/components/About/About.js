@@ -16,8 +16,8 @@ const About = () => {
         </Col>
       <Col>
         <Container>
-        <p className="text-light text-center">Hi, I'm Mateo Algañaras</p>
-        <h1 className="title text-center text-light">FRONT END<br/>DEVELOPER.</h1>
+        <p className="text-light">Hi, I'm Mateo Algañaras</p>
+        <h1 className="title text-light">FRONT END<br/>DEVELOPER.</h1>
         </Container>
         </Col>
     </Row>
