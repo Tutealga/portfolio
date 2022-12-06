@@ -5,7 +5,7 @@ import SkillsContainer from './SkillsContainer';
 
 const Skills = () => {
   return (
-    <Container className="pt-5" fluid style={styles.sectionSkills}>
+    <Container className="p-5" fluid style={styles.sectionSkills}>
     <Row>
       <Col>
         <Container>

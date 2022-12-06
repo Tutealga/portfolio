@@ -11,9 +11,9 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-          <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} role="button" className="text-light nav-link" to="about">About</Link>
-          <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} role="button" className="text-light nav-link" to="projects">Projects</Link>
-          <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} role="button" className="text-light nav-link" to="skills">Skills</Link>
+          <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} role="button" className="fs-5 text-light nav-link" to="about">About</Link>
+          <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} role="button" className="fs-5 text-light nav-link" to="projects">Projects</Link>
+          <Link activeClass="active" spy={true} smooth={true} offset={-70} duration={500} role="button" className="fs-5 text-light nav-link" to="skills">Skills</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
